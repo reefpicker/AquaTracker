@@ -1,0 +1,26 @@
+   'obstacle present?
+            If Modify_Navigation(.Site(i), .Site(i - 1)) Then
+                w = 0
+                Do
+                    w = w + 1
+                    Waypoint = Receiver.Route_Waypoint(.Site(i), .Site(i - 1), w)
+                    'show new course
+                    If Waypoint > 0 Then
+                        X = Receiver.Waypoint_X(Waypoint)
+                        Y = Receiver.Waypoint_Y(Waypoint)
+                        Picture1.Circle (X, Y), 2, vbYellow
+                        Picture1.Circle (X, Y), 3, vbGreen
+                        Picture1.Line (X, Y)-(OldX, OldY), vbRed
+                        OldX = X
+                        OldY = Y
+                    End If
+                Loop Until Waypoint = 0 Or w > MAX_NODES
+                'receiver should be last coord
+                X = Receiver.X(.Site(i))
+                Y = Receiver.Y(.Site(i))
+                Picture1.Line (X, Y)-(OldX, OldY), vbBlue
+            Else
+                'show line
+                Picture1.Line (X, Y)-(OldX, OldY), Line_Color
+            End If
+   

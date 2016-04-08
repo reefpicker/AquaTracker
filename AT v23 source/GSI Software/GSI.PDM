@@ -1,0 +1,334 @@
+[Root]
+Most Recent Package=ATv23
+
+
+[Package|Standard Setup Package 1|GSI MW]
+Icon1=GSI.exe
+Title1=GSI MW
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\AquaTracker v1.10B
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\fishculture\Comdlg32.ocx=
+C:\Program Files\fishculture\TABCTL32.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msvbvm50.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\Documents and Settings\xreyesjo\Desktop\AquaTracker.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\Program\GSI Software\GSI.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\fishculture\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\GSI Software\M-TAP.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm50.dll=$(WinSysPathSysFile)
+C:\Program Files\fishculture\TABCTL32.OCX=$(WinSysPath)
+C:\Documents and Settings\xreyesjo\Desktop\AquaTracker.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Documents and Settings\xreyesjo\Desktop\GSI Software\AquaTracker.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\Program\GSI Software\GSI.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\GSI Software\M-TAP.exe=No
+C:\Documents and Settings\xreyesjo\Desktop\AquaTracker.exe=No
+C:\Documents and Settings\xreyesjo\Desktop\GSI Software\AquaTracker.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=AquaTracker
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=AquaTracker
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\AquaTracker v1.10B
+ProjectFolder=C:\Documents and Settings\xreyesjo\Desktop\GSI Software
+ServerSideCab=
+File1=C:\AquaTracker v1.10B\setup.exe
+File2=C:\AquaTracker v1.10B\Setup.Lst
+File3=C:\AquaTracker v1.10B\AquaTracker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|AquaTracker Setup Package|GSI MW]
+Icon1=GSI.exe
+Title1=GSI MW
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|AquaTracker Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\AquaTracker
+
+[Package|AquaTracker Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|AquaTracker Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AquaTracker Setup Package|Files Found]
+
+[Package|AquaTracker Setup Package|Files Released]
+
+[Package|AquaTracker Setup Package|Missing Dependency Information]
+C:\Program Files\fishculture\Comdlg32.ocx=
+C:\Program Files\fishculture\TABCTL32.OCX=
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=
+
+[Package|AquaTracker Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+
+[Package|AquaTracker Setup Package|Files Added]
+c:\documents and settings\xtomassinijo\desktop\converter.exe=
+
+[Package|AquaTracker Setup Package|Files Removed]
+
+[Package|AquaTracker Setup Package|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\msvbvm50.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Documents and Settings\xtomassinijo\Desktop\AquaTracker.exe=Yes
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=Yes
+
+[Package|AquaTracker Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|AquaTracker Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|AquaTracker Setup Package|Install Locations]
+F:\Program\GSI Software\GSI.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\fishculture\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\GSI Software\M-TAP.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm50.dll=$(WinSysPathSysFile)
+C:\Program Files\fishculture\TABCTL32.OCX=$(WinSysPath)
+C:\Documents and Settings\xreyesjo\Desktop\AquaTracker.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Documents and Settings\xreyesjo\Desktop\GSI Software\AquaTracker.exe=$(AppPath)
+C:\Documents and Settings\Jose\Desktop\AquaTracker.exe=$(AppPath)
+C:\Documents and Settings\xtomassinijo\Desktop\AquaTracker.exe=$(AppPath)
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=$(AppPath)
+
+[Package|AquaTracker Setup Package|Configure Shared Files]
+Applicable=Yes
+F:\Program\GSI Software\GSI.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\GSI Software\M-TAP.exe=No
+C:\Documents and Settings\xreyesjo\Desktop\AquaTracker.exe=No
+C:\Documents and Settings\xreyesjo\Desktop\GSI Software\AquaTracker.exe=No
+C:\Documents and Settings\Jose\Desktop\AquaTracker.exe=No
+C:\Documents and Settings\xtomassinijo\Desktop\AquaTracker.exe=No
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=No
+
+[Package|AquaTracker Setup Package|Distribution]
+Type=single
+Size=
+Title=AquaTracker
+
+[Package|AquaTracker Setup Package|IconGroups]
+Group0=AquaTracker
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|AquaTracker Setup Package|Package]
+PackageFolder=C:\AquaTracker
+ProjectFolder=C:\Documents and Settings\xtomassinijo\Desktop\AT v23 source\GSI Software
+ServerSideCab=
+File1=C:\AquaTracker\setup.exe
+File2=C:\AquaTracker\Setup.Lst
+File3=C:\AquaTracker\AquaTracker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|ATv23|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\AquaTracker
+
+[Package|ATv23|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ATv23|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ATv23|Files Found]
+
+[Package|ATv23|Files Released]
+
+[Package|ATv23|Missing Dependency Information]
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=
+
+[Package|ATv23|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\ComDlg32.OCX=
+
+[Package|ATv23|Files Added]
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=
+
+[Package|ATv23|Files Removed]
+
+[Package|ATv23|Files In Project]
+C:\Documents and Settings\xtomassinijo\Desktop\AquaTracker.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\msvbvm50.dll=Yes
+C:\WINDOWS\system32\ComDlg32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=Yes
+
+[Package|ATv23|Configure Registry Files]
+Applicable=No
+
+[Package|ATv23|Configure Remote Servers]
+Applicable=No
+
+[Package|ATv23|Install Locations]
+C:\Documents and Settings\xtomassinijo\Desktop\AquaTracker.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msvbvm50.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ComDlg32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=$(AppPath)
+
+[Package|ATv23|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\xtomassinijo\Desktop\AquaTracker.exe=No
+C:\Documents and Settings\xtomassinijo\Desktop\Converter.exe=No
+
+[Package|ATv23|Distribution]
+Type=single
+Size=
+Title=AquaTracker
+
+[Package|ATv23|IconGroups]
+Group0=AquaTracker
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|ATv23|AquaTracker]
+Icon1=AquaTracker.exe
+Title1=AquaTracker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ATv23|Package]
+PackageFolder=C:\AquaTracker
+ProjectFolder=C:\Documents and Settings\xtomassinijo\Desktop\AT v23 source\GSI Software
+ServerSideCab=
+File1=C:\AquaTracker\setup.exe
+File2=C:\AquaTracker\Setup.Lst
+File3=C:\AquaTracker\AquaTracker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
