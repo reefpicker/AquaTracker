@@ -1,0 +1,39 @@
+@article{moore2010early,
+  title={Early marine migration patterns of wild coastal cutthroat trout (Oncorhynchus clarki clarki), steelhead trout (Oncorhynchus mykiss), and their hybrids},
+  author={Moore, Megan E and Goetz, Fred A and Van Doornik, Donald M and Tezak, Eugene P and Quinn, Thomas P and Reyes-Tomassini, Jose J and Berejikian, Barry A},
+  journal={PLoS One},
+  volume={5},
+  number={9},
+  pages={e12881},
+  year={2010},
+  publisher={Public Library of Science}
+}
+
+@article{goetz2015comparative,
+  title={Comparative migratory behavior and survival of wild and hatchery steelhead (Oncorhynchus mykiss) smolts in riverine, estuarine, and marine habitats of Puget Sound, Washington},
+  author={Goetz, Fred A and Jeanes, Eric and Moore, Megan E and Quinn, Thomas P},
+  journal={Environmental biology of fishes},
+  volume={98},
+  number={1},
+  pages={357--375},
+  year={2015},
+  publisher={Springer}
+}
+
+@phdthesis{goetz2016migration,
+  title={Migration and Residence Patterns of Salmonids in Puget Sound, Washington},
+  author={Goetz, Frederick A},
+  year={2016}
+}
+
+@article{moore2012variation,
+  title={Variation in the early marine survival and behavior of natural and hatchery-reared Hood Canal steelhead},
+  author={Moore, Megan and Berejikian, Barry A and Tezak, Eugene P},
+  journal={PLoS One},
+  volume={7},
+  number={11},
+  pages={e49645},
+  year={2012},
+  publisher={Public Library of Science}
+}
+
