@@ -19,7 +19,6 @@ To run the project in VB6.0, copy all the files and directories to your computer
 
 GSI.VBP
 
-```
 To test the program, you can load the sample file Sample_Detection_File_Old_ATFormat.csv
 When you load the file, make sure to select the CSV file format from the dropbox in the Load data dialog.
 
