@@ -17,7 +17,7 @@ TABCTL32.OCX
 
 To run the project in VB6.0, copy all the files and directories to your computer then open the following project:
 
-GSI.VBP
+'''AT v23 Source\GSI\GSI.VBP'''
 
 To test the program, you can load the sample file Sample_Detection_File_Old_ATFormat.csv
 When you load the file, make sure to select the CSV file format from the dropbox in the Load data dialog.
@@ -34,7 +34,7 @@ reefpicker@gmail.com
 
 ## License
 
-This project is Public Domain.
+This project licensed under GNU v3.0.
 
 ## Acknowledgments
 
