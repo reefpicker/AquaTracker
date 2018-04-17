@@ -28,7 +28,8 @@ in
 ## Author
 
 Jose J. Reyes-Tomassini
-jose.reyestomassini@wartburg.edu
+jose.reyestomassini@wartburg.edu 
+or
 reefpicker@gmail.com
 
 ## License
