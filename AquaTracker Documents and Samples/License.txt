@@ -1,0 +1,13 @@
+License & Disclaimer
+====================
+
+Per Section 105 of the Copyright Act, this software is a government product and may not be copyrighted in whole or in part.
+
+Therefore, AquaTracker is provided as public domain software.
+
+Neither the U.S. Government, nor any agency or employee thereof, makes any warranties, expressed or implied, with respect to this software, including but not limited to the implied warranties or merchantability and fitness for any particular purpose. In no event shall the U.S. Government, nor any agency or employee thereof, be liable for any direct, indirect, or consequential damage flowing from the use of the product.
+
+For more information:
+Jose Reyes-Tomassini
+360-871-8309
+Jose.ReyesTomassini@noaa.gov
