@@ -25,7 +25,7 @@ AquaTracker Documents and Samples\Sample_Detection_File_Old_ATFormat.csv
 ```
 When you load the file, make sure to select the CSV file format from the dropbox in the Load data dialog.
 
-There is a QuickStart Guide PDF file on the ***AquaTracker Documents and Samples*** directory that contains an illustrated guide of how to use the program. There is also a series of videos contained
+There is a QuickStart Guide PDF file on the ***AquaTracker Documents and Samples*** directory that contains an illustrated guide of how to use the program. There is also a series of videos contained in this directory.
 in 
 
 ## Author
