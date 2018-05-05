@@ -1,0 +1,13 @@
+frmAVICreator = 60, 60, 1338, 685, , 30, 30, 1308, 655, C
+cAVICreator = 110, 145, 986, 458, 
+cMemDC = 0, 0, 0, 0, C
+cBmp = 44, 58, 920, 371, C
+mRGBQuad = 0, 0, 0, 0, C
+cPalette = 0, 0, 0, 0, C
+cVideoHandlers = 0, 0, 0, 0, C
+cVideoHandler = 0, 0, 0, 0, C
+cCommonDialog = 22, 29, 898, 342, 
+cBrowseForFolder = 66, 87, 942, 400, 
+mBrowseForFolder = 110, 145, 987, 458, 
+cDIBSection256 = 88, 116, 964, 429, C
+mMain = 0, 0, 0, 0, C
